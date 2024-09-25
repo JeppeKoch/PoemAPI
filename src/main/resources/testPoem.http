@@ -1,0 +1,15 @@
+GET http://localhost:7008/api/poem
+###
+POST http://localhost:7008/api/poem/poems
+Content-Type: application/json
+
+{
+  "author": "Jeppe",
+  "content": "Halløjsovs",
+  "title": "title",
+  "type": "HAIKU"
+}
+
+###
+
+GET http://localhost:7008/api/poem/poems/6
